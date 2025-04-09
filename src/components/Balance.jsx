@@ -3,7 +3,7 @@ import React from 'react';
 import {useSelector} from "react-redux";
 
 const Balance = () => {
-    const balance = useSelector(state => state.balance);
+    const balance = useSelector(state => state.account.balance);
     const quote = useSelector(state => state.quote);
 
 
